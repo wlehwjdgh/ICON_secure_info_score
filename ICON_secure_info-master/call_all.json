@@ -1,0 +1,16 @@
+{
+    "jsonrpc": "2.0",
+    "method": "icx_call",
+    "id": 1,
+    "params": {
+        "from": "hxe7af5fcfd8dfc67530a01a0e403882687528dfcb",
+        "to": "cx953acb003104611c2eea38d6e65b1cfccd25fa10",
+        "dataType": "call", 
+        "data": {
+            "method": "get_secret",
+            "params" :  {
+                "secretCode": "2", 
+                "secretPassword": "1234"
+            }
+        }
+    }
